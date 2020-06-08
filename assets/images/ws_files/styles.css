@@ -1,0 +1,113 @@
+﻿
+
+
+.icon-lists {width:100%; display:inline-block; clear:both; margin:0 0 0 -20px; list-style:none; padding:0;}
+.icon-lists .icon {width:200px; height:200px; float:left; margin:0 0 20px 20px; border:1px solid #ddd; position:relative; }
+.icon-lists .icon img {position:absolute; z-index:1; max-width:128px; max-height:128px;}
+
+.icon-lists .icon .button {padding:5px 0; margin:0; border-bottom:1px solid #eee; background:#fff;}
+.icon-lists .icon .button a,
+.icon-lists .icon .button a:link,
+.icon-lists .icon .button a:visited {font-size:12px; font-weight:normal; margin-left:8px; color:#2B3643;}
+.icon-lists .icon .button a:hover {color:#E23E40; text-decoration:none;}
+
+.icon-lists .icon .cover {padding:5px; width:198px; height:174px; border-top:1px solid #ddd; background:rgba(43, 54, 67, 0.8) none repeat scroll 0 0; position:relative; z-index:2; display:none; margin-top:-1px;}
+.icon-lists .icon .cover p {font-size:12px; margin:0 0 8px 0; line-height:1.4; color:#fff;}
+.icon-lists .icon .cover p i {margin-right:5px;}
+.icon-lists .icon .cover p i,
+.icon-lists .icon .cover p a,
+.icon-lists .icon .cover p a:link,
+.icon-lists .icon .cover p a:visited {font-size:12px; color:#fff;}
+.icon-lists .icon .cover p a:hover {color:#ffbfbf; text-decoration:none;}
+
+
+.details .tools .transparent,
+.transparent .icon{background:url(img/grid.png) no-repeat;} 
+.details .tools .white,
+.white .icon{background:#fff;}
+.details .tools .black,
+.black .icon{background:#000;}
+
+.icon-lists .icon:hover .cover {display:block; cursor:pointer;
+    -webkit-animation: fadein 500ms; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 500ms; /* Firefox < 16 */
+        -ms-animation: fadein 500ms; /* Internet Explorer */
+         -o-animation: fadein 500ms; /* Opera < 12.1 */
+            animation: fadein 500ms;
+
+}
+.page-content {background:#EAEAEA;}
+.input-nav {width:600px;}
+
+.colors a span{visibility:hidden;}
+
+.bgWidth {background:#fff;}
+
+.details {text-align:center;}
+.details .size {display:inline-block; clear:both;}
+.size .pagination {margin:0;}
+.image-icon {border:1px solid #2B3643; padding:15px; display:inline-block; clear:both;  }
+
+
+.tools {display:inline-block; clear:both;}
+.tools .size h4 {float:left; margin:0 15px 0 0; padding-top:8px;}
+.download span,
+.download a {margin:0 10px;}
+.clearboth {width:100%; display:inline-block; clear:both;}
+
+.info .item a {margin:20px 5px 0 5px; display:inline-block;}
+
+.infoIcon span {margin-right:20px;}
+
+
+.nav ul li a span.square {width:16px; height:16px; display:block; background:url(img/grid.png) no-repeat; float:left; margin-right:10px; border:1px solid #555;}
+.nav ul li a span.black {background:#000;}
+.nav ul li a span.white {background:#fff;} 
+.page-header.navbar .hor-menu .navbar-nav>li>a {padding:15px;}
+.page-header.navbar .hor-menu .navbar-nav>li.selected {margin-left:2px; margin-right:2px;}
+.page-header.navbar .hor-menu .navbar-nav>li.selected>a {color: #fff; background: #E7505A!important;}
+
+.tag-item {margin-top:10px;}
+
+
+.set-lists {margin-left:-30px;}
+.set-lists .set-item {width:320px; float:left; margin-left:30px; margin-bottom:30px;}
+.set-lists .set-item .set-container {padding-right:30px;}
+.set-lists .set-item .title {height:50px;}
+.set-lists .set-item h4 {text-align:center;}
+.set-lists .set-item .mt-set {width:320px; height:240px; overflow:hidden;}
+.set-lists .set-item img {width:100%;}
+
+
+.share-social {text-align:right; overflow:hidden; width:230px; float:right; padding-bottom:10px; clear:both;margin-top: -32px;}
+.share-social .facebook {float:left; width:150px;}
+.share-social .google {float:right; width:60px;}
+
+@keyframes fadein {
+    from { opacity: 0; top:10px; }
+    to   { opacity: 1; top:0; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; top:10px; }
+    to   { opacity: 1; top:0; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; top:10px; }
+    to   { opacity: 1; top:0; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; top:10px; }
+    to   { opacity: 1; top:0; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; top:10px; }
+    to   { opacity: 1; top:0; }
+}

@@ -1,0 +1,23 @@
+﻿$(document).ready(function () {
+    //$("#size").ionRangeSlider({ type: "double", grid: !0, from: 16, to: 512, values: [16, 32, 64, 128, 256, 512] })
+
+    //setDefaultCookie
+    var bgColor = $.cookie('cf_bgColor');
+    var rowPerPage = $.cookie('cf_rowPerPage');
+    if (bgColor != 'undefined' && bgColor != null) {
+        $.cookie('cf_bgColor', 'white', { expires: 1, path: '/' });
+    }
+    if (rowPerPage != 'undefined' && rowPerPage != null) {
+        $.cookie('cf_rowPerPage', '24', { expires: 1, path: '/' });
+    }
+});
+
+function setBackgroud(color) {
+    $.cookie('cf_bgColor', color, { expires: 1, path: '/' });
+    window.location.href = window.location.href;
+}
+
+function setDefaultRow(size) {
+    $.cookie('cf_rowPerPage', size, { expires: 1, path: '/' });
+    window.location.href = window.location.href;
+}
